@@ -1,4 +1,4 @@
-package stats
+package math
 
 func Avg(values []float64) float64 {
 	total := 0.0
