@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	_ "strings"
 
 	"example.local/calc/math"
 )
