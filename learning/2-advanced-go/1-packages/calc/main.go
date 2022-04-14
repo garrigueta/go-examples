@@ -1,14 +1,17 @@
 package main
 
 import (
-	"fmt"
+	f "fmt"
+	"math"
+	. "os"
 	_ "strings"
 
-	"example.local/calc/math"
+	m "example.local/calc/math"
 )
 
 func main() {
-	values := []float64{1, 10, 100, 1000}
-	fmt.Println(math.Add(10, 20))
-	fmt.Println(math.Avg(values))
+	f.Println(m.Add(10, 20))
+	f.Println(m.Pi)
+	f.Println(math.Pi)
+	f.Fprintln(Stdout, "Hello")
 }
